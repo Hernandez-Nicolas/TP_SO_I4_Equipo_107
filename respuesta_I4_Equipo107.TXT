@@ -1,0 +1,15 @@
+A) Quedo de color azul.
+B) Quedo de color amarillo.
+C) En el master ocurrio un conflicto entre los dos colores de las ramas TESTING y DESARROLLO, lo arreglamos y quedo en el amarillo.
+D) Se mantiene el favicon de Beta.
+E) BETA y GAMMA tuvieron problemas al hacer el push.
+F) BETA y GAMMA no pudieron hacer el push ya que no contaban con la ultima version del repositorio que subio ALFA.
+G) BETA y GAMMA podrian hacer un pull de los ultimos cambios del repositorio y despues escribir su <p> donde lo necesiten sin tener que pisar lo que subieron sus compañeros.
+H) Al utilizar el git push -f se descarta todos los commits realizados anteriormente por los colaboradores
+para asi dejar al mismo con el estado del repositorio local de aquel que haga el git push -f.
+I) Una solucion posible para que index.html tenga todos los <p> de los puntos
+18, 19 y 20 es que primero alfa haga su respectivo <p> , pushee y haga el merge con la rama DESARROLLO, despues que Beta actualize
+su repositorio para poder tener el cambio de Alfa y debajo del <p> de alfa
+beta escribe su <p> y pushea y hace el merge con la rama DESARROLLO, gamma tendria que hacer lo mismo que hizo beta con alfa,
+tendria que actualizar su repositorios para tener los cambios hechos por alfa y beta
+y debajo del <p> de beta hacer su propio <p>, hacer el push y por ultimo el merge con DESARROLLO.
